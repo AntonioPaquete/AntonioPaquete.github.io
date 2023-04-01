@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-  var header_colors = ['#fcb241', 'rgba(255, 191, 0, 1)', '#f96d00'];
+  var header_colors = ['rgb(0, 144, 243)', 'rgb(0, 86, 240)'];
   var current_color = 0;
 
   function changeColor() {
@@ -9,4 +9,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   setInterval(changeColor, 2000);
+
 });
