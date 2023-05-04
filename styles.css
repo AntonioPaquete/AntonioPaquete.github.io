@@ -1,8 +1,9 @@
 .header {
     text-align: left;
-    color: #f2f2f2;
+    color: #021818d3; /* V Dark Blue*/
     padding: 2rem 3rem 2rem 3rem;
-    background-color: rgb(0, 86, 240);
+    background-color: #aa4f12f0; /* Brownish-Orange */
+    /*background-color: #fa8334c3; /* Cadmium Orange*/
     font-family: 'Brush Script MT', cursive;
     display: flex;
     justify-content: space-between;
@@ -15,14 +16,19 @@ h1 {
 }
 
 body {
-    background-color: #f2f2f2;
-    color: #f2f2f2;
+    /*background-color: #556B2F;  /* Mid-Dark Olive */
+    /*background-color: #ffa500;  /* Orange */
+    /*background-color: #8b8a4e;  /* Olive Green */
+    background-color: #F8D7A1;  /* Light Peach */
+    /*background-color: #A4A44D;  /* Pale Olive */
+    /*background-color: #4B4B1F; /* Dark Olive */
+    color: #021818e3;
     line-height: 1.5;
 }
 
 a {
     text-align: right;
-    color: #f2f2f2;
+    color: #021818;
     float: right;
     font-family: Georgia, serif;
     text-decoration: none;
@@ -30,7 +36,7 @@ a {
 }
 
 a:hover {
-    color: #222831;
+    color: #f2f2f2cf;
 }
 
 a.contacts {
@@ -39,7 +45,7 @@ a.contacts {
 }
 
 a.contacts:hover {
-    color: #89cff0;
+    color: #02a8f5;
     text-decoration: none;
 }
 
@@ -53,7 +59,8 @@ a.contacts:hover {
 .card {
     width: auto;
     height: auto;
-    background: linear-gradient(rgba(2, 27, 121, 0.8), rgba(5, 117, 230, 0.8));
+    /*background: linear-gradient( rgb(237, 136, 28), rgba(232, 173, 102, 0.8));*/
+    background-color: rgba(237, 136, 28, 0.705);
     padding: 1em;
     border-radius: 20px;
     animation: fadeIn 2s forwards;
@@ -92,8 +99,8 @@ p {
 }
 
 footer {
-    background-color: rgb(2, 27, 121, 0.8);
-    color: #f2f2f2;
+    background-color: #aa4f12f0;
+    color: #021818;
     text-align: left;
     padding: 1em;
   }
