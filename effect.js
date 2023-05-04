@@ -1,6 +1,6 @@
-/*document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
 
-  var header_colors = ['rgb(0, 144, 243)', 'rgb(0, 86, 240)'];
+  var header_colors = ['#fa8334f0', '#aa4f12f0'];
   var current_color = 0;
 
   function changeColor() {
@@ -8,6 +8,6 @@
       current_color = (current_color + 1) % header_colors.length;
   }
 
-  setInterval(changeColor, 2000);
+  setInterval(changeColor, 1500);
 
-});*/
+});
